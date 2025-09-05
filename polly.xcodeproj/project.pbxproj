@@ -1,580 +1,580 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 77;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 77;
+    objects = {
 
 /* Begin PBXContainerItemProxy section */
-		BAB928DD2E655F1B00AEB517 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BAB928C32E655F1A00AEB517 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAB928CA2E655F1A00AEB517;
-			remoteInfo = polly;
-		};
-		BAB928E72E655F1B00AEB517 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BAB928C32E655F1A00AEB517 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAB928CA2E655F1A00AEB517;
-			remoteInfo = polly;
-		};
+        BAB928DD2E655F1B00AEB517 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = BAB928C32E655F1A00AEB517 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = BAB928CA2E655F1A00AEB517;
+            remoteInfo = polly;
+        };
+        BAB928E72E655F1B00AEB517 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = BAB928C32E655F1A00AEB517 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = BAB928CA2E655F1A00AEB517;
+            remoteInfo = polly;
+        };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BAB928CB2E655F1A00AEB517 /* polly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAB928DC2E655F1B00AEB517 /* pollyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pollyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAB928E62E655F1B00AEB517 /* pollyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pollyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        BAB928CB2E655F1A00AEB517 /* polly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        BAB928DC2E655F1B00AEB517 /* pollyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pollyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        BAB928E62E655F1B00AEB517 /* pollyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pollyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BAB928EE2E655F1B00AEB517 /* Exceptions for "polly" folder in "polly" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BAB928CA2E655F1A00AEB517 /* polly */;
-		};
+        BAB928EE2E655F1B00AEB517 /* Exceptions for "polly" folder in "polly" target */ = {
+            isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+            membershipExceptions = (
+                Info.plist,
+            );
+            target = BAB928CA2E655F1A00AEB517 /* polly */;
+        };
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BAB928CD2E655F1A00AEB517 /* polly */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BAB928EE2E655F1B00AEB517 /* Exceptions for "polly" folder in "polly" target */,
-			);
-			path = polly;
-			sourceTree = "<group>";
-		};
-		BAB928DF2E655F1B00AEB517 /* pollyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = pollyTests;
-			sourceTree = "<group>";
-		};
-		BAB928E92E655F1B00AEB517 /* pollyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = pollyUITests;
-			sourceTree = "<group>";
-		};
+        BAB928CD2E655F1A00AEB517 /* polly */ = {
+            isa = PBXFileSystemSynchronizedRootGroup;
+            exceptions = (
+                BAB928EE2E655F1B00AEB517 /* Exceptions for "polly" folder in "polly" target */,
+            );
+            path = polly;
+            sourceTree = "<group>";
+        };
+        BAB928DF2E655F1B00AEB517 /* pollyTests */ = {
+            isa = PBXFileSystemSynchronizedRootGroup;
+            path = pollyTests;
+            sourceTree = "<group>";
+        };
+        BAB928E92E655F1B00AEB517 /* pollyUITests */ = {
+            isa = PBXFileSystemSynchronizedRootGroup;
+            path = pollyUITests;
+            sourceTree = "<group>";
+        };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BAB928C82E655F1A00AEB517 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB928D92E655F1B00AEB517 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB928E32E655F1B00AEB517 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        BAB928C82E655F1A00AEB517 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        BAB928D92E655F1B00AEB517 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        BAB928E32E655F1B00AEB517 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BAB928C22E655F1A00AEB517 = {
-			isa = PBXGroup;
-			children = (
-				BAB928CD2E655F1A00AEB517 /* polly */,
-				BAB928DF2E655F1B00AEB517 /* pollyTests */,
-				BAB928E92E655F1B00AEB517 /* pollyUITests */,
-				BAB928CC2E655F1A00AEB517 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		BAB928CC2E655F1A00AEB517 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BAB928CB2E655F1A00AEB517 /* polly.app */,
-				BAB928DC2E655F1B00AEB517 /* pollyTests.xctest */,
-				BAB928E62E655F1B00AEB517 /* pollyUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
+        BAB928C22E655F1A00AEB517 = {
+            isa = PBXGroup;
+            children = (
+                BAB928CD2E655F1A00AEB517 /* polly */,
+                BAB928DF2E655F1B00AEB517 /* pollyTests */,
+                BAB928E92E655F1B00AEB517 /* pollyUITests */,
+                BAB928CC2E655F1A00AEB517 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        BAB928CC2E655F1A00AEB517 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                BAB928CB2E655F1A00AEB517 /* polly.app */,
+                BAB928DC2E655F1B00AEB517 /* pollyTests.xctest */,
+                BAB928E62E655F1B00AEB517 /* pollyUITests.xctest */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAB928CA2E655F1A00AEB517 /* polly */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAB928EF2E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "polly" */;
-			buildPhases = (
-				BAB928C72E655F1A00AEB517 /* Sources */,
-				BAB928C82E655F1A00AEB517 /* Frameworks */,
-				BAB928C92E655F1A00AEB517 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BAB928CD2E655F1A00AEB517 /* polly */,
-			);
-			name = polly;
-			packageProductDependencies = (
-			);
-			productName = polly;
-			productReference = BAB928CB2E655F1A00AEB517 /* polly.app */;
-			productType = "com.apple.product-type.application";
-		};
-		BAB928DB2E655F1B00AEB517 /* pollyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAB928F42E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyTests" */;
-			buildPhases = (
-				BAB928D82E655F1B00AEB517 /* Sources */,
-				BAB928D92E655F1B00AEB517 /* Frameworks */,
-				BAB928DA2E655F1B00AEB517 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAB928DE2E655F1B00AEB517 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BAB928DF2E655F1B00AEB517 /* pollyTests */,
-			);
-			name = pollyTests;
-			packageProductDependencies = (
-			);
-			productName = pollyTests;
-			productReference = BAB928DC2E655F1B00AEB517 /* pollyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BAB928E52E655F1B00AEB517 /* pollyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAB928F72E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyUITests" */;
-			buildPhases = (
-				BAB928E22E655F1B00AEB517 /* Sources */,
-				BAB928E32E655F1B00AEB517 /* Frameworks */,
-				BAB928E42E655F1B00AEB517 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAB928E82E655F1B00AEB517 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BAB928E92E655F1B00AEB517 /* pollyUITests */,
-			);
-			name = pollyUITests;
-			packageProductDependencies = (
-			);
-			productName = pollyUITests;
-			productReference = BAB928E62E655F1B00AEB517 /* pollyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
+        BAB928CA2E655F1A00AEB517 /* polly */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = BAB928EF2E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "polly" */;
+            buildPhases = (
+                BAB928C72E655F1A00AEB517 /* Sources */,
+                BAB928C82E655F1A00AEB517 /* Frameworks */,
+                BAB928C92E655F1A00AEB517 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            fileSystemSynchronizedGroups = (
+                BAB928CD2E655F1A00AEB517 /* polly */,
+            );
+            name = polly;
+            packageProductDependencies = (
+            );
+            productName = polly;
+            productReference = BAB928CB2E655F1A00AEB517 /* polly.app */;
+            productType = "com.apple.product-type.application";
+        };
+        BAB928DB2E655F1B00AEB517 /* pollyTests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = BAB928F42E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyTests" */;
+            buildPhases = (
+                BAB928D82E655F1B00AEB517 /* Sources */,
+                BAB928D92E655F1B00AEB517 /* Frameworks */,
+                BAB928DA2E655F1B00AEB517 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                BAB928DE2E655F1B00AEB517 /* PBXTargetDependency */,
+            );
+            fileSystemSynchronizedGroups = (
+                BAB928DF2E655F1B00AEB517 /* pollyTests */,
+            );
+            name = pollyTests;
+            packageProductDependencies = (
+            );
+            productName = pollyTests;
+            productReference = BAB928DC2E655F1B00AEB517 /* pollyTests.xctest */;
+            productType = "com.apple.product-type.bundle.unit-test";
+        };
+        BAB928E52E655F1B00AEB517 /* pollyUITests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = BAB928F72E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyUITests" */;
+            buildPhases = (
+                BAB928E22E655F1B00AEB517 /* Sources */,
+                BAB928E32E655F1B00AEB517 /* Frameworks */,
+                BAB928E42E655F1B00AEB517 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                BAB928E82E655F1B00AEB517 /* PBXTargetDependency */,
+            );
+            fileSystemSynchronizedGroups = (
+                BAB928E92E655F1B00AEB517 /* pollyUITests */,
+            );
+            name = pollyUITests;
+            packageProductDependencies = (
+            );
+            productName = pollyUITests;
+            productReference = BAB928E62E655F1B00AEB517 /* pollyUITests.xctest */;
+            productType = "com.apple.product-type.bundle.ui-testing";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BAB928C32E655F1A00AEB517 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
-				TargetAttributes = {
-					BAB928CA2E655F1A00AEB517 = {
-						CreatedOnToolsVersion = 16.4;
-					};
-					BAB928DB2E655F1B00AEB517 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = BAB928CA2E655F1A00AEB517;
-					};
-					BAB928E52E655F1B00AEB517 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = BAB928CA2E655F1A00AEB517;
-					};
-				};
-			};
-			buildConfigurationList = BAB928C62E655F1A00AEB517 /* Build configuration list for PBXProject "polly" */;
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = BAB928C22E655F1A00AEB517;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = BAB928CC2E655F1A00AEB517 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				BAB928CA2E655F1A00AEB517 /* polly */,
-				BAB928DB2E655F1B00AEB517 /* pollyTests */,
-				BAB928E52E655F1B00AEB517 /* pollyUITests */,
-			);
-		};
+        BAB928C32E655F1A00AEB517 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 1640;
+                LastUpgradeCheck = 1640;
+                TargetAttributes = {
+                    BAB928CA2E655F1A00AEB517 = {
+                        CreatedOnToolsVersion = 16.4;
+                    };
+                    BAB928DB2E655F1B00AEB517 = {
+                        CreatedOnToolsVersion = 16.4;
+                        TestTargetID = BAB928CA2E655F1A00AEB517;
+                    };
+                    BAB928E52E655F1B00AEB517 = {
+                        CreatedOnToolsVersion = 16.4;
+                        TestTargetID = BAB928CA2E655F1A00AEB517;
+                    };
+                };
+            };
+            buildConfigurationList = BAB928C62E655F1A00AEB517 /* Build configuration list for PBXProject "polly" */;
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = BAB928C22E655F1A00AEB517;
+            minimizedProjectReferenceProxies = 1;
+            preferredProjectObjectVersion = 77;
+            productRefGroup = BAB928CC2E655F1A00AEB517 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                BAB928CA2E655F1A00AEB517 /* polly */,
+                BAB928DB2E655F1B00AEB517 /* pollyTests */,
+                BAB928E52E655F1B00AEB517 /* pollyUITests */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BAB928C92E655F1A00AEB517 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB928DA2E655F1B00AEB517 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB928E42E655F1B00AEB517 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        BAB928C92E655F1A00AEB517 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        BAB928DA2E655F1B00AEB517 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        BAB928E42E655F1B00AEB517 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BAB928C72E655F1A00AEB517 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB928D82E655F1B00AEB517 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB928E22E655F1B00AEB517 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        BAB928C72E655F1A00AEB517 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        BAB928D82E655F1B00AEB517 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        BAB928E22E655F1B00AEB517 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BAB928DE2E655F1B00AEB517 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BAB928CA2E655F1A00AEB517 /* polly */;
-			targetProxy = BAB928DD2E655F1B00AEB517 /* PBXContainerItemProxy */;
-		};
-		BAB928E82E655F1B00AEB517 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BAB928CA2E655F1A00AEB517 /* polly */;
-			targetProxy = BAB928E72E655F1B00AEB517 /* PBXContainerItemProxy */;
-		};
+        BAB928DE2E655F1B00AEB517 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = BAB928CA2E655F1A00AEB517 /* polly */;
+            targetProxy = BAB928DD2E655F1B00AEB517 /* PBXContainerItemProxy */;
+        };
+        BAB928E82E655F1B00AEB517 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = BAB928CA2E655F1A00AEB517 /* polly */;
+            targetProxy = BAB928E72E655F1B00AEB517 /* PBXContainerItemProxy */;
+        };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BAB928F02E655F1B00AEB517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = polly/polly.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = polly/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = polly.polly;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BAB928F12E655F1B00AEB517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = polly/polly.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = polly/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = polly.polly;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BAB928F22E655F1B00AEB517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		BAB928F32E655F1B00AEB517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = R44WG942GS;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BAB928F52E655F1B00AEB517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = polly.pollyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/polly";
-			};
-			name = Debug;
-		};
-		BAB928F62E655F1B00AEB517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = polly.pollyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/polly";
-			};
-			name = Release;
-		};
-		BAB928F82E655F1B00AEB517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = polly.pollyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = polly;
-			};
-			name = Debug;
-		};
-		BAB928F92E655F1B00AEB517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = R44WG942GS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = polly.pollyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = polly;
-			};
-			name = Release;
-		};
+        BAB928F02E655F1B00AEB517 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_ENTITLEMENTS = polly/polly.entitlements;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 2;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_FILE = polly/Info.plist;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = polly.polly;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        BAB928F12E655F1B00AEB517 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_ENTITLEMENTS = polly/polly.entitlements;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 2;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_FILE = polly/Info.plist;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = polly.polly;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        BAB928F22E655F1B00AEB517 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                ENABLE_USER_SCRIPT_SANDBOXING = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+                LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        BAB928F32E655F1B00AEB517 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                DEVELOPMENT_TEAM = R44WG942GS;
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_USER_SCRIPT_SANDBOXING = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+                LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        BAB928F52E655F1B00AEB517 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 2;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = polly.pollyTests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/polly";
+            };
+            name = Debug;
+        };
+        BAB928F62E655F1B00AEB517 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 2;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = polly.pollyTests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/polly";
+            };
+            name = Release;
+        };
+        BAB928F82E655F1B00AEB517 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 2;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                GENERATE_INFOPLIST_FILE = YES;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = polly.pollyUITests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = polly;
+            };
+            name = Debug;
+        };
+        BAB928F92E655F1B00AEB517 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 2;
+                DEVELOPMENT_TEAM = R44WG942GS;
+                GENERATE_INFOPLIST_FILE = YES;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = polly.pollyUITests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = polly;
+            };
+            name = Release;
+        };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAB928C62E655F1A00AEB517 /* Build configuration list for PBXProject "polly" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAB928F22E655F1B00AEB517 /* Debug */,
-				BAB928F32E655F1B00AEB517 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAB928EF2E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "polly" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAB928F02E655F1B00AEB517 /* Debug */,
-				BAB928F12E655F1B00AEB517 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAB928F42E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAB928F52E655F1B00AEB517 /* Debug */,
-				BAB928F62E655F1B00AEB517 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAB928F72E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAB928F82E655F1B00AEB517 /* Debug */,
-				BAB928F92E655F1B00AEB517 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        BAB928C62E655F1A00AEB517 /* Build configuration list for PBXProject "polly" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                BAB928F22E655F1B00AEB517 /* Debug */,
+                BAB928F32E655F1B00AEB517 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        BAB928EF2E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "polly" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                BAB928F02E655F1B00AEB517 /* Debug */,
+                BAB928F12E655F1B00AEB517 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        BAB928F42E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyTests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                BAB928F52E655F1B00AEB517 /* Debug */,
+                BAB928F62E655F1B00AEB517 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        BAB928F72E655F1B00AEB517 /* Build configuration list for PBXNativeTarget "pollyUITests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                BAB928F82E655F1B00AEB517 /* Debug */,
+                BAB928F92E655F1B00AEB517 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
-	};
-	rootObject = BAB928C32E655F1A00AEB517 /* Project object */;
+    };
+    rootObject = BAB928C32E655F1A00AEB517 /* Project object */;
 }
