@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Micer Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .timer-container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .timer-display {
+            font-size: 4em;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #333;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .reset-btn {
+            background-color: #dc3545;
+        }
+        .reset-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="timer-container">
+        <h1>THE OPEN MICER TIMER</h1>
+        <div class="timer-display" id="timer">3:00</div>
+        <div class="buttons">
+            <button id="startPause">Start</button>
+            <button class="reset-btn" id="reset">Reset</button>
+            <button id="minus10">-10s</button>
+            <button id="plus10">+10s</button>
+        </div>
+    </div>
+
+    <script>
+        let timeLeft = 180; // 3 minutes in seconds
+        let isRunning = false;
+        let timerInterval;
+
+        const timerDisplay = document.getElementById('timer');
+        const startPauseBtn = document.getElementById('startPause');
+        const resetBtn = document.getElementById('reset');
+        const minus10Btn = document.getElementById('minus10');
+        const plus10Btn = document.getElementById('plus10');
+
+        function updateDisplay() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            timerDisplay.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        function startTimer() {
+            if (!isRunning) {
+                isRunning = true;
+                startPauseBtn.textContent = 'Pause';
+                timerInterval = setInterval(() => {
+                    if (timeLeft > 0) {
+                        timeLeft--;
+                        updateDisplay();
+                    } else {
+                        pauseTimer();
+                        alert('Time\'s up!');
+                    }
+                }, 1000);
+            } else {
+                pauseTimer();
+            }
+        }
+
+        function pauseTimer() {
+            isRunning = false;
+            startPauseBtn.textContent = 'Start';
+            clearInterval(timerInterval);
+        }
+
+        function resetTimer() {
+            pauseTimer();
+            timeLeft = 180;
+            updateDisplay();
+        }
+
+        startPauseBtn.addEventListener('click', startTimer);
+        resetBtn.addEventListener('click', resetTimer);
+        minus10Btn.addEventListener('click', () => {
+            timeLeft = Math.max(0, timeLeft - 10);
+            updateDisplay();
+        });
+        plus10Btn.addEventListener('click', () => {
+            timeLeft += 10;
+            updateDisplay();
+        });
+
+        updateDisplay();
+    </script>
+</body>
+</html>
