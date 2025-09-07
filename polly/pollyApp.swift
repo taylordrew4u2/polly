@@ -14,7 +14,7 @@ struct pollyApp: App {
         let schema = Schema([
             Item.self,
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true) // Changed to in-memory for simpler startup
 
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
@@ -26,6 +26,7 @@ struct pollyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark) // Ensure dark mode for better compatibility with the timer UI
         }
         .modelContainer(sharedModelContainer)
     }
