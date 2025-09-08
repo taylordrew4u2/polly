@@ -1,0 +1,108 @@
+import SwiftUI
+import WebKit
+
+#if os(macOS)
+struct TimerWebView: NSViewRepresentable {
+    func makeNSView(context: Context) -> WKWebView {
+        // Configure WebView with proper preferences
+        let configuration = WKWebViewConfiguration()
+        
+        // Use the newer API for JavaScript configuration
+        let webpagePreferences = WKWebpagePreferences()
+        webpagePreferences.allowsContentJavaScript = true
+        configuration.defaultWebpagePreferences = webpagePreferences
+        
+        let webView = WKWebView(frame: .zero, configuration: configuration)
+        webView.allowsMagnification = true
+        webView.navigationDelegate = context.coordinator
+        
+        // Instead of loading from a file, load HTML content directly
+        let htmlContent = getTimerHTMLContent()
+        webView.loadHTMLString(htmlContent, baseURL: nil)
+        
+        return webView
+    }
+    
+    func updateNSView(_ nsView: WKWebView, context: Context) {
+        // No updates needed
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    class Coordinator: NSObject, WKNavigationDelegate {
+        var parent: TimerWebView
+        
+        init(_ parent: TimerWebView) {
+            self.parent = parent
+        }
+        
+        func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+            print("WebView loaded successfully")
+        }
+        
+        func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+            print("WebView navigation failed: \(error.localizedDescription)")
+        }
+        
+        func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+            print("WebView provisional navigation failed: \(error.localizedDescription)")
+        }
+    }
+}
+#else
+struct TimerWebView: UIViewRepresentable {
+    func makeUIView(context: Context) -> WKWebView {
+        // Configure WebView with proper preferences
+        let configuration = WKWebViewConfiguration()
+        
+        // Use the newer API for JavaScript configuration
+        let webpagePreferences = WKWebpagePreferences()
+        webpagePreferences.allowsContentJavaScript = true
+        configuration.defaultWebpagePreferences = webpagePreferences
+        
+        let webView = WKWebView(frame: .zero, configuration: configuration)
+        webView.navigationDelegate = context.coordinator
+        
+        // Instead of loading from a file, load HTML content directly
+        let htmlContent = getTimerHTMLContent()
+        webView.loadHTMLString(htmlContent, baseURL: nil)
+        
+        return webView
+    }
+    
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        // No updates needed
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    class Coordinator: NSObject, WKNavigationDelegate {
+        var parent: TimerWebView
+        
+        init(_ parent: TimerWebView) {
+            self.parent = parent
+        }
+        
+        func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+            print("WebView loaded successfully")
+        }
+        
+        func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+            print("WebView navigation failed: \(error.localizedDescription)")
+        }
+        
+        func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+            print("WebView provisional navigation failed: \(error.localizedDescription)")
+        }
+    }
+}
+#endif
+
+// Function to return the HTML content
+func getTimerHTMLContent() -> String {
+    // ... existing HTML content remains the same ...
+}

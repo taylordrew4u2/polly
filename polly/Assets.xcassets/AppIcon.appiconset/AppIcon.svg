@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AppIcon</title>
+    <g id="AppIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="1024" height="1024"></rect>
+        <circle id="TimerFace" stroke="#FFFFFF" stroke-width="30" cx="512" cy="512" r="400"></circle>
+        <path d="M512,112 L512,212" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+        <path d="M512,812 L512,912" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+        <path d="M912,512 L812,512" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+        <path d="M212,512 L112,512" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+        <path d="M512,512 L709,709" id="Line" stroke="#FF2B2B" stroke-width="24" stroke-linecap="round"></path>
+        <path d="M512,512 L512,312" id="Line" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"></path>
+        <circle id="Center" fill="#FFFFFF" cx="512" cy="512" r="30"></circle>
+    </g>
+</svg>
